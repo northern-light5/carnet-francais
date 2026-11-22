@@ -1,0 +1,37 @@
+{
+  "name": "Carnet Français",
+  "tagline": "Learn French, pass the TCF, live your life in French.",
+  "base_url": "",
+  "year": 2026,
+  "app": {
+    "name": "CarnetTCF",
+    "pitch": "Your pocket coach for the TCF exam: timed mock tests, listening and reading drills, vocabulary decks and a progress tracker that shows you exactly which skill to practise next.",
+    "features": [
+      {"icon": "⏱", "title": "Timed mock exams", "text": "Practise under real TCF conditions for listening, reading and language structure."},
+      {"icon": "🎧", "title": "Listening drills", "text": "Short audio clips at every CEFR level, from A1 to C2, with instant feedback."},
+      {"icon": "✍️", "title": "Writing & speaking prompts", "text": "Realistic tasks with model answers and a checklist for self-review."},
+      {"icon": "🗂", "title": "Smart vocabulary decks", "text": "Spaced repetition brings back the words you are about to forget."},
+      {"icon": "📈", "title": "Progress tracker", "text": "See your estimated level per skill and what to focus on next."},
+      {"icon": "📴", "title": "Works offline", "text": "Study on the bus, in the metro, or anywhere without data."}
+    ],
+    "app_store_url": "#",
+    "play_store_url": "#",
+    "web_url": "#"
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "phones": [
+      {"label": "General enquiries", "number": "+1 000 000 0000"},
+      {"label": "Course registration", "number": "+1 000 000 0001"}
+    ],
+    "whatsapp": "",
+    "address": "Your city, your country",
+    "hours": "Mon–Fri, 9:00–18:00"
+  },
+  "social": [
+    {"label": "GitHub", "url": "https://github.com/"},
+    {"label": "Instagram", "url": "#"},
+    {"label": "YouTube", "url": "#"}
+  ],
+  "repo_url": "https://github.com/"
+}

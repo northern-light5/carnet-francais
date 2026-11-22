@@ -1,0 +1,61 @@
+<section class="page-head">
+  <div class="wrap">
+    <h1>Practise French</h1>
+    <p class="lead">Three free tools that run in your browser. Your progress stays on your device.</p>
+    <div class="tabs" role="tablist">
+      <button role="tab" class="tab is-active" aria-selected="true" data-tab="flash">Flashcards</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="conj">Conjugation</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="quiz">Grammar quiz</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="panel" data-panel="flash">
+      <div class="toolbar">
+        <label>Topic <select data-flash-topic><option value="all">All topics</option></select></label>
+        <label class="check"><input type="checkbox" data-flash-reverse> English → French</label>
+        <span class="muted" data-flash-count></span>
+      </div>
+      <button class="flashcard" data-flashcard aria-label="Flip card">
+        <span class="flash-front" data-flash-front>…</span>
+        <span class="flash-back" data-flash-back></span>
+      </button>
+      <div class="actions center">
+        <button class="btn btn-ghost" data-flash-again>↺ Again</button>
+        <button class="btn btn-ghost" data-flash-speak>🔊 Listen</button>
+        <button class="btn btn-primary" data-flash-known>✓ I knew it</button>
+      </div>
+      <p class="muted center">Tap the card to flip it. Known: <strong data-flash-known-count>0</strong></p>
+    </div>
+
+    <div class="panel" data-panel="conj" hidden>
+      <div class="toolbar">
+        <label>Verb <select data-conj-verb></select></label>
+        <label>Tense <select data-conj-tense></select></label>
+      </div>
+      <form class="conj-grid" data-conj-form autocomplete="off"></form>
+      <div class="actions">
+        <button class="btn btn-primary" data-conj-check>Check</button>
+        <button class="btn btn-ghost" data-conj-reveal>Show answers</button>
+        <button class="btn btn-ghost" data-conj-random>Random verb</button>
+      </div>
+      <p class="result" data-conj-result aria-live="polite"></p>
+      <p class="muted">Tip: type accents with your keyboard, or use the buttons:
+        <span class="accent-keys" data-accent-keys></span></p>
+    </div>
+
+    <div class="panel" data-panel="quiz" hidden>
+      <div class="quiz" data-quiz></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap center">
+    <h2>Want full TCF mock exams?</h2>
+    <p class="lead">{{ site.app.name }} has hundreds of exam-style questions with timing and score estimates.</p>
+    <a class="btn btn-primary" href="tcf.html">Get {{ site.app.name }}</a>
+  </div>
+</section>

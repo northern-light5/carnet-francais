@@ -1,0 +1,54 @@
+{
+  "vocab": [
+    {"fr": "bonjour", "en": "hello / good morning", "topic": "Basics"},
+    {"fr": "merci beaucoup", "en": "thank you very much", "topic": "Basics"},
+    {"fr": "s'il vous plaît", "en": "please (formal)", "topic": "Basics"},
+    {"fr": "je voudrais", "en": "I would like", "topic": "Basics"},
+    {"fr": "le logement", "en": "housing", "topic": "Daily life"},
+    {"fr": "le loyer", "en": "rent", "topic": "Daily life"},
+    {"fr": "un rendez-vous", "en": "an appointment", "topic": "Daily life"},
+    {"fr": "la boulangerie", "en": "the bakery", "topic": "Daily life"},
+    {"fr": "un entretien d'embauche", "en": "a job interview", "topic": "Work"},
+    {"fr": "le salaire", "en": "the salary", "topic": "Work"},
+    {"fr": "un collègue", "en": "a colleague", "topic": "Work"},
+    {"fr": "démissionner", "en": "to resign", "topic": "Work"},
+    {"fr": "cependant", "en": "however", "topic": "Connectors"},
+    {"fr": "en revanche", "en": "on the other hand", "topic": "Connectors"},
+    {"fr": "par conséquent", "en": "consequently", "topic": "Connectors"},
+    {"fr": "bien que", "en": "although (+ subjunctive)", "topic": "Connectors"},
+    {"fr": "à mon avis", "en": "in my opinion", "topic": "Connectors"},
+    {"fr": "l'environnement", "en": "the environment", "topic": "Society"},
+    {"fr": "le chômage", "en": "unemployment", "topic": "Society"},
+    {"fr": "la santé", "en": "health", "topic": "Society"}
+  ],
+  "verbs": {
+    "être":    {"présent": ["suis", "es", "est", "sommes", "êtes", "sont"], "imparfait": ["étais", "étais", "était", "étions", "étiez", "étaient"], "futur": ["serai", "seras", "sera", "serons", "serez", "seront"]},
+    "avoir":   {"présent": ["ai", "as", "a", "avons", "avez", "ont"], "imparfait": ["avais", "avais", "avait", "avions", "aviez", "avaient"], "futur": ["aurai", "auras", "aura", "aurons", "aurez", "auront"]},
+    "aller":   {"présent": ["vais", "vas", "va", "allons", "allez", "vont"], "imparfait": ["allais", "allais", "allait", "allions", "alliez", "allaient"], "futur": ["irai", "iras", "ira", "irons", "irez", "iront"]},
+    "faire":   {"présent": ["fais", "fais", "fait", "faisons", "faites", "font"], "imparfait": ["faisais", "faisais", "faisait", "faisions", "faisiez", "faisaient"], "futur": ["ferai", "feras", "fera", "ferons", "ferez", "feront"]},
+    "parler":  {"présent": ["parle", "parles", "parle", "parlons", "parlez", "parlent"], "imparfait": ["parlais", "parlais", "parlait", "parlions", "parliez", "parlaient"], "futur": ["parlerai", "parleras", "parlera", "parlerons", "parlerez", "parleront"]},
+    "finir":   {"présent": ["finis", "finis", "finit", "finissons", "finissez", "finissent"], "imparfait": ["finissais", "finissais", "finissait", "finissions", "finissiez", "finissaient"], "futur": ["finirai", "finiras", "finira", "finirons", "finirez", "finiront"]},
+    "pouvoir": {"présent": ["peux", "peux", "peut", "pouvons", "pouvez", "peuvent"], "imparfait": ["pouvais", "pouvais", "pouvait", "pouvions", "pouviez", "pouvaient"], "futur": ["pourrai", "pourras", "pourra", "pourrons", "pourrez", "pourront"]},
+    "vouloir": {"présent": ["veux", "veux", "veut", "voulons", "voulez", "veulent"], "imparfait": ["voulais", "voulais", "voulait", "voulions", "vouliez", "voulaient"], "futur": ["voudrai", "voudras", "voudra", "voudrons", "voudrez", "voudront"]},
+    "prendre": {"présent": ["prends", "prends", "prend", "prenons", "prenez", "prennent"], "imparfait": ["prenais", "prenais", "prenait", "prenions", "preniez", "prenaient"], "futur": ["prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront"]}
+  },
+  "phrases": [
+    {"fr": "Il vaut mieux tard que jamais.", "en": "Better late than never."},
+    {"fr": "Petit à petit, l'oiseau fait son nid.", "en": "Little by little, the bird builds its nest."},
+    {"fr": "Qui ne tente rien n'a rien.", "en": "Nothing ventured, nothing gained."},
+    {"fr": "C'est en forgeant qu'on devient forgeron.", "en": "Practice makes perfect."},
+    {"fr": "Les paroles s'envolent, les écrits restent.", "en": "Spoken words fly away, written words remain."},
+    {"fr": "Après la pluie, le beau temps.", "en": "After the rain comes good weather."},
+    {"fr": "Vouloir, c'est pouvoir.", "en": "Where there's a will, there's a way."}
+  ],
+  "quiz": [
+    {"q": "Choose the correct article: ___ eau est froide.", "options": ["Le", "La", "L'", "Les"], "answer": 2, "explain": "Before a vowel sound, le/la become l'."},
+    {"q": "Hier, nous ___ au cinéma.", "options": ["allons", "sommes allés", "irons", "allions"], "answer": 1, "explain": "A completed action yesterday → passé composé; aller takes être."},
+    {"q": "Il faut que tu ___ tes devoirs.", "options": ["fais", "fasses", "feras", "faisais"], "answer": 1, "explain": "'Il faut que' is followed by the subjunctive."},
+    {"q": "Je n'ai ___ vu.", "options": ["personne", "rien", "jamais", "aucun"], "answer": 1, "explain": "'Je n'ai rien vu' = I didn't see anything."},
+    {"q": "Si j'avais le temps, je ___ le français tous les jours.", "options": ["étudie", "étudierai", "étudierais", "étudiais"], "answer": 2, "explain": "Si + imparfait → conditionnel présent."},
+    {"q": "C'est la ville ___ je suis né.", "options": ["que", "qui", "dont", "où"], "answer": 3, "explain": "'Où' introduces a place (or time) in relative clauses."},
+    {"q": "Elle parle ___ que son frère.", "options": ["plus bien", "mieux", "meilleur", "plus bon"], "answer": 1, "explain": "The comparative of the adverb 'bien' is 'mieux'."},
+    {"q": "Les fleurs ___ j'ai achetées sont belles.", "options": ["que", "qui", "dont", "lesquelles"], "answer": 0, "explain": "'Que' is the direct object; note the agreement 'achetées'."}
+  ]
+}

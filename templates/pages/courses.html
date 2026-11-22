@@ -1,0 +1,19 @@
+<section class="page-head">
+  <div class="wrap">
+    <h1>Courses</h1>
+    <p class="lead">Small groups and private lessons with experienced teachers. Every course includes access to {{ site.app.name }} for homework and practice.</p>
+    <div class="chips" data-filter-group="courses">{{{ course_filters_html }}}</div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap grid grid-3" data-filter-target="courses">
+    {{{ course_cards_html }}}
+  </div>
+</section>
+<section class="section section-alt">
+  <div class="wrap center">
+    <h2>Not sure which level you are?</h2>
+    <p class="lead">Take the free quiz, or call us and we'll place you in the right group.</p>
+    <div class="actions center"><a class="btn btn-primary" href="learn.html">Take the quiz</a><a class="btn btn-ghost" href="contact.html">Contact us</a></div>
+  </div>
+</section>

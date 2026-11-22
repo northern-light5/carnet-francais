@@ -1,0 +1,27 @@
+<section class="page-head">
+  <div class="wrap">
+    <h1>Contact us</h1>
+    <p class="lead">Questions about courses, the {{ site.app.name }} app or your level? We're happy to help.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="card">
+      <h2>Call us</h2>
+      <ul class="phone-list">{{{ phones_html }}}</ul>
+      <h2>Email</h2>
+      <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
+      <h2>Where & when</h2>
+      <p>{{ site.contact.address }}<br><span class="muted">{{ site.contact.hours }}</span></p>
+    </div>
+    <form class="card form" data-contact-form data-email="{{ site.contact.email }}">
+      <h2>Send a message</h2>
+      <p class="muted">This opens your email app with the message ready to send. Nothing is stored on this server.</p>
+      <label>Your name <input name="name" required></label>
+      <label>Your email <input name="email" type="email" required></label>
+      <label>Subject <input name="subject" data-course-subject></label>
+      <label>Message <textarea name="message" rows="6" required></textarea></label>
+      <button class="btn btn-primary" type="submit">Write email</button>
+    </form>
+  </div>
+</section>

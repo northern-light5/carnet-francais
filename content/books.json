@@ -1,0 +1,11 @@
+[
+  {"title": "Grammaire progressive du français (Débutant / Intermédiaire / Avancé)", "author": "CLE International", "level": "A1–C1", "category": "Grammar", "note": "Short explanations on the left page, exercises on the right. The classic self-study grammar series."},
+  {"title": "Vocabulaire progressif du français", "author": "CLE International", "level": "A1–C1", "category": "Vocabulary", "note": "Thematic vocabulary with exercises; pairs perfectly with the grammar series."},
+  {"title": "Bescherelle : La conjugaison pour tous", "author": "Hatier", "level": "All levels", "category": "Reference", "note": "Every verb, every tense. The reference book French students keep for life."},
+  {"title": "ABC TCF — 450 exercices", "author": "CLE International", "level": "A2–C1", "category": "TCF prep", "note": "Exam-style exercises for every compulsory section, with answer key and audio."},
+  {"title": "Réussir le TCF", "author": "Didier", "level": "A2–C1", "category": "TCF prep", "note": "Strategies, mock tests and tips for the written and oral sections."},
+  {"title": "Communication progressive du français", "author": "CLE International", "level": "A1–B2", "category": "Speaking", "note": "Real-life dialogues and useful phrases for speaking practice."},
+  {"title": "Le Petit Prince", "author": "Antoine de Saint-Exupéry", "level": "A2–B1", "category": "Reading", "note": "Simple language, deep ideas. A perfect first novel in French."},
+  {"title": "L'Étranger", "author": "Albert Camus", "level": "B1–B2", "category": "Reading", "note": "Short sentences and a gripping story; a great step into literature."},
+  {"title": "Easy French Reader", "author": "R. de Roussy de Sales", "level": "A1–A2", "category": "Reading", "note": "Graded stories with glossary, building from very simple to intermediate texts."}
+]

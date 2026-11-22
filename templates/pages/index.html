@@ -1,0 +1,65 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Bienvenue !</p>
+      <h1>Learn French that gets you <em>somewhere</em>.</h1>
+      <p class="lead">Free daily practice, live courses with real teachers, and the {{ site.app.name }} app to take you from your first <span lang="fr">bonjour</span> to your TCF score.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="learn.html">Start practising — free</a>
+        <a class="btn btn-ghost" href="courses.html">See courses</a>
+      </div>
+    </div>
+    <aside class="card phrase-card" aria-live="polite">
+      <p class="eyebrow">Phrase of the day</p>
+      <p class="phrase-fr" lang="fr" data-phrase-fr>…</p>
+      <p class="phrase-en" data-phrase-en></p>
+      <button class="btn btn-small btn-ghost" data-speak-phrase>🔊 Listen</button>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Everything you need in one place</h2>
+    <div class="grid grid-4">
+      <a class="card tile" href="learn.html"><span class="tile-icon" aria-hidden="true">🃏</span><h3>Practise</h3><p>Flashcards, conjugation drills and a grammar quiz. No sign-up.</p></a>
+      <a class="card tile" href="courses.html"><span class="tile-icon" aria-hidden="true">👩‍🏫</span><h3>Courses</h3><p>{{ course_count }} programmes from A1 to TCF intensive.</p></a>
+      <a class="card tile" href="books.html"><span class="tile-icon" aria-hidden="true">📚</span><h3>Books</h3><p>{{ book_count }} hand-picked books for grammar, vocabulary and reading.</p></a>
+      <a class="card tile" href="tcf.html"><span class="tile-icon" aria-hidden="true">🎯</span><h3>TCF guide</h3><p>How the exam works and how to prepare for it.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap promo">
+    <div class="phone" aria-hidden="true">
+      <div class="phone-screen">
+        <div class="phone-bar">{{ site.app.name }}</div>
+        <div class="phone-score"><span>B2</span><small>estimated level</small></div>
+        <div class="phone-row"><span>Compréhension orale</span><i style="--w:78%"></i></div>
+        <div class="phone-row"><span>Compréhension écrite</span><i style="--w:84%"></i></div>
+        <div class="phone-row"><span>Structures</span><i style="--w:66%"></i></div>
+        <div class="phone-cta">Next: 10-min listening drill</div>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow">Meet the app</p>
+      <h2>{{ site.app.name }}: your TCF coach in your pocket</h2>
+      <p class="lead">{{ site.app.pitch }}</p>
+      <div class="actions">{{{ store_buttons_html }}}</div>
+      <a class="link-arrow" href="tcf.html">See all features →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">How learners use {{ site.name }}</h2>
+    <ol class="steps">
+      <li><strong>Find your level.</strong> Take the 8-question quiz on the Learn page.</li>
+      <li><strong>Build a habit.</strong> Ten minutes of flashcards and verbs a day.</li>
+      <li><strong>Get feedback.</strong> Join a course or private coaching.</li>
+      <li><strong>Test yourself.</strong> Mock TCF exams in {{ site.app.name }} until you hit your target.</li>
+    </ol>
+  </div>
+</section>
