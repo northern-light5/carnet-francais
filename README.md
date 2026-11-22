@@ -29,6 +29,7 @@ python3 build.py --serve     # http://localhost:8000
 
 ## Host on a Raspberry Pi
 
+1. Clone: `git clone https://github.com/northern-light5/carnet-francais.git`
 1. Make sure you can SSH in with a key: `ssh-copy-id pi@raspberrypi.local`
 2. Copy the project to the Pi and run the one-time setup there:
    ```bash
